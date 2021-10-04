@@ -98,6 +98,16 @@ img {
 
   /* /div lezioni */
 
-  
+  /* sezione come funziona (steps) */
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 90%;
+    font-size: 1.5em;
+    padding: 10px 0;
+  }
+
+  /* /sezione come funziona (steps) */
 
 }
