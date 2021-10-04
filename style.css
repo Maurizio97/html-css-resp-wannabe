@@ -82,7 +82,7 @@ img {
 
   /* div lezioni  */
   .row {
-    max-width: 410px;
+    max-width: 100%;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -91,6 +91,7 @@ img {
 
   #lezioni .row>.left,
   #lezioni .row>.right {
+    float: none;
     width: 90%;
     align-self: center;
     font-size: 1.5em;
@@ -111,6 +112,7 @@ img {
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
+    float: none;
     width: 90%;
     font-size: 1.5em;
     padding: 10px 0;
@@ -126,7 +128,75 @@ img {
   #why .row>.first,
   #why .row>.second,
   #why .row>.third {
+    float: none;
     width: 90%;
+    font-size: 1.5em;
+    padding: 10px 0;
+  }
+  /* /sezione perche cademi (why) */
+
+}
+
+
+
+
+/* version tablet */
+@media all and (max-width:768px) {
+
+  .container.grey {
+    background-color: #db0e63;
+  }
+
+  /* div lezioni  */
+  .row {
+    max-width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    float: none;
+    width: 80%;
+    align-self: center;
+    font-size: 1.5em;
+    padding: 10px 0;
+  }
+
+  .row h1 {
+    font-size: 3em;
+  }
+
+  /* /div lezioni */
+
+  /* sezione come funziona (steps) */
+  #steps {
+    margin-top: 60px;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 80%;
+    font-size: 1.5em;
+    padding: 10px 0;
+  }
+  /* /sezione come funziona (steps) */
+
+
+  /* sezione perche cademi (why) */
+  #why {
+    margin-top: 60px;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    float: none;
+    width: 80%;
     font-size: 1.5em;
     padding: 10px 0;
   }
