@@ -75,10 +75,29 @@ img {
 /* version smartphone */
 
 @media all and (max-width:419px) {
-  #lezioni {
-    display: none;
+
+  /* div lezioni  */
+  .row {
+    max-width: 410px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-/* .container {
-    display: none;
-  } */
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 90%;
+    align-self: center;
+    font-size: 1.5em;
+    padding: 10px 0;
+}
+  .row h1 {
+    font-size: 2.5em;
+  }
+
+  /* /div lezioni */
+
+  
+
 }
